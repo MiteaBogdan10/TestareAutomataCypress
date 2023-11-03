@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "276e3549-84c9-4cbd-9b94-65588be172d0",
+		"name": "FirstTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29088869"
+	},
+	"item": [
+		{
+			"name": "Read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=30f668ea&i=tt3896198",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "30f668ea"
+						},
+						{
+							"key": "i",
+							"value": "tt3896198"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=tesla&from=2023-09-10&sortBy=publishedAt&apiKey=f40cb0ff90954929af8e84b599929780&language=ro",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "tesla"
+						},
+						{
+							"key": "from",
+							"value": "2023-09-10"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "f40cb0ff90954929af8e84b599929780"
+						},
+						{
+							"key": "language",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
