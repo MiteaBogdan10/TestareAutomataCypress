@@ -7,7 +7,7 @@ Am realizat urmatoarele 3 capitole folosind Jira: https://proiect-test69.atlassi
 2)Despre estimari(Planning Poker) 
 3)Bug Report
 
-Capitolul 4 l-am realizat folosind TestLink
+Capitolul 4 l-am realizat folosind TestLink(Momentan pe Github voi pune doar un Excell cu Test Case-uri deoarece nu imi mai functioneaza TestLink): https://docs.google.com/spreadsheets/d/1n8Oc1LQtByNdFd9zkBwk4YJzhZBxBzUDo0zQWiQJiw4/edit#gid=0
 4)Test Case
 
 Capitolul 5 l-am realizat folosind Postman:
